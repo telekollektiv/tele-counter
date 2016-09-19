@@ -1,5 +1,58 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1, #key, #intro{
+    margin-left: 2vw;
+}
+
 #ctr > button {
-    width: 100%;
-    margin: 0 0 10px;
-    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width:599px) {
+
+    #intro-key{
+        width: 94vw;
+    }
+
+    #ctr > button{
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+		
+    .round{
+        width: 40vw;
+        height: 40vw;
+        padding-bottom: 1vw;
+        border-radius: 50vw;
+        margin: 5vw;
+        float: left;
+
+        color: white;
+        font-size: 20vw;
+        line-height: 0;			
+    }
+		
+    .rectangle-rounded{
+        width: 90vw;
+        height: 20vw;
+        margin: 5vw;
+        border-radius: 50vw;
+        background-color: lightblue;
+        font-size: 10vw;
+        line-height: 0;
+        border: none;
+						
+    }
+		
+    #inc {
+    background-color: lightgreen;
+    }
+		
+    #dec {
+        background-color: red;
+    }
 }
