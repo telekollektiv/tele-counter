@@ -20,7 +20,7 @@ h1, #key, #intro{
 @media only screen and (max-width:599px) {
 
     #intro-key{
-        width: 96vw;
+        width: 94vw;
     }
 
     #ctr > button{
